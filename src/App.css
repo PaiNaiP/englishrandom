@@ -1,0 +1,23 @@
+/* src/App.css */
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  transition: transform 0.5s;
+}
+
+.card.flipped {
+  transform: rotateY(0deg); /* Set it to 0deg to prevent mirroring */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card-text {
+  margin-top: 20px;
+}
